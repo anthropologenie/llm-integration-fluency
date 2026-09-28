@@ -1,0 +1,12 @@
+# Web API
+fastapi>=0.141,<1.0
+uvicorn>=0.54,<1.0
+pydantic>=2.13,<3.0
+
+# LLM provider SDK — DeepSeek exposes an OpenAI-compatible API,
+# so the official OpenAI Python SDK is used as the client library.
+openai>=3.19,<4.0
+
+# Testing (httpx is required by fastapi.testclient.TestClient)
+pytest>=9.1,<10.0
+httpx>=0.28,<1.0
